@@ -1,0 +1,57 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .orbit { fill: none; stroke: #30363d; stroke-width: 1; opacity: 0.5; }
+        .planet { filter: drop-shadow(0 0 5px rgba(255,255,255,0.3)); }
+        .text { font-family: 'Courier New', monospace; fill: #8b949e; font-size: 10px; }
+        .title { font-family: sans-serif; fill: white; font-weight: bold; font-size: 24px; letter-spacing: 4px; }
+        .hud-line { stroke: #00ffff; stroke-width: 1; opacity: 0.3; }
+        
+        /* ANIMATIONS */
+        @keyframes pulse { 0% { r: 25; opacity: 0.8; } 50% { r: 30; opacity: 0.4; } 100% { r: 25; opacity: 0.8; } }
+        .sun { animation: pulse 4s infinite; }
+    </style>
+    
+    <rect width="100%" height="100%" fill="#0d1117" />
+    
+    <line x1="50" y1="50" x2="50" y2="400" class="hud-line" />
+    <line x1="50" y1="400" x2="750" y2="400" class="hud-line" />
+    <text x="60" y="390" class="text">SYS_TIME: 2026.01.20 :: 2129</text>
+    <text x="60" y="375" class="text">SECTOR: N_BHARATH_PRIME</text>
+    
+    <circle cx="400" cy="225" r="25" fill="url(#grad1)" class="sun" />
+    <defs>
+        <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:white;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#00ffff;stop-opacity:1" />
+        </radialGradient>
+    </defs>
+    <circle cx="400" cy="225" r="150.0" class="orbit" />
+<circle cx="453.5126150390717" cy="365.12993981187645" r="50" fill="#f1e05a" class="planet" />
+<text x="468.5126150390717" y="370.12993981187645" class="text" fill="white">REDSHIFT</text>
+<circle cx="400" cy="225" r="240.0" class="orbit" />
+<circle cx="483.70374653472686" cy="0.0696045083052752" r="50" fill="#e34c26" class="planet" />
+<text x="498.70374653472686" y="5.069604508305275" class="text" fill="white">CIRCLE-13</text>
+<circle cx="400" cy="225" r="330.0" class="orbit" />
+<circle cx="89.36311128183951" cy="336.3764937834782" r="50" fill="#e34c26" class="planet" />
+<text x="104.36311128183951" y="341.3764937834782" class="text" fill="white">ALVRYN-AI</text>
+<circle cx="400" cy="225" r="376.3875" class="orbit" />
+<circle cx="558.6338169455546" cy="566.3251562330768" r="20.925" fill="#2b7489" class="planet" />
+<text x="573.6338169455546" y="571.3251562330768" class="text" fill="white">DSATM-EXAM-SYSTEM-</text>
+<circle cx="400" cy="225" r="418.62" class="orbit" />
+<circle cx="808.6414117850619" cy="134.1435144069975" r="18.155" fill="#e34c26" class="planet" />
+<text x="823.6414117850619" y="139.1435144069975" class="text" fill="white">WEBSITE-EQUDATOR-TRADING-PLATFORM</text>
+<circle cx="400" cy="225" r="449.4525" class="orbit" />
+<circle cx="849.1136561066114" cy="242.44917347046442" r="10.555" fill="#8b949e" class="planet" />
+<text x="864.1136561066114" y="247.44917347046442" class="text" fill="white">FLASK</text>
+<circle cx="400" cy="225" r="479.7255" class="orbit" />
+<circle cx="43.963598873817375" cy="-96.51926291182923" r="10.182" fill="#8b949e" class="planet" />
+<text x="58.963598873817375" y="-91.51926291182923" class="text" fill="white">HCF-INTERNSHIP</text>
+<circle cx="400" cy="225" r="508.59450000000004" class="orbit" />
+<circle cx="503.16480641399687" cy="723.0214735810221" r="9.246" fill="#8b949e" class="planet" />
+<circle cx="400" cy="225" r="531.0945" class="orbit" />
+<circle cx="-3.874215551367058" cy="569.8869176165108" r="5" fill="#8b949e" class="planet" />
+<circle cx="400" cy="225" r="553.5945" class="orbit" />
+<circle cx="36.77426591026028" cy="-192.7725894852602" r="5" fill="#2b7489" class="planet" />
+
+    <text x="400" y="40" text-anchor="middle" class="title">SYSTEM SINGULARITY</text>
+    </svg>
