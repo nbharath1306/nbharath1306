@@ -1,73 +1,104 @@
 ## Hi there 👋
-
-<!--
-**nbharath1306/nbharath1306** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Bharath+👋;I+Turn+Caffeine+Into+Code;Full+Stack+Engineer;Always+Shipping+🚀" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=Bharath%20N&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
 </div>
 
 <div align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30" />
+  
+  ### 👨‍💻 Full Stack Developer | Open Source Enthusiast
+  
+  *Currently cooking up new things every day.*
+  
+  <p align="center">
+    <a href="https://twitter.com/yourtwitterhandle" target="_blank">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+    </a>
+    <a href="https://linkedin.com/in/yourlinkedinhandle" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    </a>
+    <a href="mailto:your@email.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    </a>
+  </p>
+</div>
+
+---
+
+### 🧐 About Me
+
+I'm **Bharath**, a developer who loves building products. With a high volume of repositories, I'm constantly experimenting ("cooking") with new tech stacks and solving real-world problems.
+
+- 🔭 I’m currently working on **[Insert Your Top Project Name]**
+- 🌱 I’m currently learning **[Insert New Tech, e.g., Rust, AI Agents]**
+- 👯 I’m looking to collaborate on **[Open Source / Startups]**
+- ⚡ Fun fact: **I have more repos than I have socks.**
+
+---
+
+### 🛠️ The Kitchen (Tech Stack)
+
+<div align="center">
+
+| Frontend | Backend | Tools & DevOps |
+| :---: | :---: | :---: |
+| <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" width="200" /> | <img src="https://skillicons.dev/icons?i=nodejs,express,python,java,mongodb" width="200" /> | <img src="https://skillicons.dev/icons?i=git,docker,aws,firebase,vscode" width="200" /> |
+
+</div>
+
+---
+
+### 📊 The Stats
+
+Since I have many repositories, here is the data behind the code.
+
+<div align="center">
+  <a href="https://github.com/nbharath1306">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=nbharath1306&show_icons=true&theme=transparent&hide_border=true&count_private=true" alt="Bharath's Stats" height="150" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nbharath1306&layout=compact&theme=transparent&hide_border=true&langs_count=6" alt="Top Languages" height="150" />
   </a>
-  <a href="mailto:your_email@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" />
-  </a>
-</div>
-
-<br />
-
-### 👨‍💻 About Me
-I'm a developer focused on building scalable systems and solving complex problems. My GitHub is a mix of experimental labs and production-ready code.
-
-- 🔭 **Currently working on:** [Your Main Project Name]
-- 🌱 **Learning:** [e.g. Next.js 14, Docker, System Design]
-- ⚡ **Philosophy:** "Ship fast, break things, fix them faster."
-
----
-
-### 🛠️ The Tech Stack
-<div align="center">
-  <h3>Top Languages</h3>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nbharath1306&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 </div>
 
 <div align="center">
-  <h3>Tools & Frameworks</h3>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,express,python,java,mysql,mongodb,docker,git,linux,aws" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nbharath1306&theme=transparent&hide_border=true" alt="Streak" />
 </div>
 
 ---
 
-### 📊 The Data (GitHub Stats)
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nbharath1306&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Bharath's Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nbharath1306&theme=tokyonight&hide_border=true" alt="Streak Stats" />
-</div>
+### 🏆 Featured "Dishes" (Top Projects)
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🚀 Project A (The Big One)</h3>
+      <div align="center">
+        <a href="https://github.com/nbharath1306/PROJECT-LINK">
+          <img src="https://via.placeholder.com/300x150.png?text=Project+Screenshot" width="100%" alt="Project A" />
+        </a>
+      </div>
+      <p align="center">
+        A concise description of your best project. What problem did it solve?
+        <br />
+        <code>Stack: React, Node, AWS</code>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">⚡ Project B (The Fast One)</h3>
+      <div align="center">
+        <a href="https://github.com/nbharath1306/PROJECT-LINK">
+          <img src="https://via.placeholder.com/300x150.png?text=Project+Screenshot" width="100%" alt="Project B" />
+        </a>
+      </div>
+      <p align="center">
+         A cool utility or tool you built that others might use.
+        <br />
+        <code>Stack: Python, Docker</code>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🏆 Featured Projects (The "Best Dishes")
-| Project | Description | Stack | Links |
-| :--- | :--- | :--- | :--- |
-| **🚀 [Project Name A]** | A brief 1-sentence pitch. What problem does it solve? | `React` `Node.js` | [Code](#) • [Demo](#) |
-| **🤖 [Project Name B]** | A brief 1-sentence pitch. Is it an AI model? A bot? | `Python` `TensorFlow` | [Code](#) • [Demo](#) |
-| **⚡ [Project Name C]** | A brief 1-sentence pitch. A useful utility or tool? | `Go` `Docker` | [Code](#) • [Demo](#) |
-
----
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://komarev.com/ghpvc/?username=nbharath1306&style=flat-square&color=blue" alt="Profile Views" />
 </div>
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
