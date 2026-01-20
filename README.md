@@ -1,104 +1,73 @@
-## Hi there 👋
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=Bharath%20N&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
-</div>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=220&section=header&text=Bharath%20N&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Building%20things%20on%20GitHub&descSize=20&descAlignY=60&descAlign=50" width="100%" />
 
-<div align="center">
-  
-  ### 👨‍💻 Full Stack Developer | Open Source Enthusiast
-  
-  *Currently cooking up new things every day.*
-  
+  ### 👨‍💻 "I am literally cooking many things."
+
+  <p align="center"> 
+    <samp>
+      Exploring new tech stacks | Contributing to Open Source | Shipping Code
+    </samp>
+  </p>
+
   <p align="center">
-    <a href="https://twitter.com/yourtwitterhandle" target="_blank">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+    <a href="https://github.com/nbharath1306">
+      <img src="https://img.shields.io/github/followers/nbharath1306?label=Followers&style=social" alt="Followers" />
     </a>
-    <a href="https://linkedin.com/in/yourlinkedinhandle" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="mailto:your@email.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <a href="https://github.com/nbharath1306?tab=repositories&q=&type=source">
+      <img src="https://img.shields.io/github/stars/nbharath1306?style=social" alt="Total Stars" />
     </a>
   </p>
 </div>
 
 ---
 
-### 🧐 About Me
-
-I'm **Bharath**, a developer who loves building products. With a high volume of repositories, I'm constantly experimenting ("cooking") with new tech stacks and solving real-world problems.
-
-- 🔭 I’m currently working on **[Insert Your Top Project Name]**
-- 🌱 I’m currently learning **[Insert New Tech, e.g., Rust, AI Agents]**
-- 👯 I’m looking to collaborate on **[Open Source / Startups]**
-- ⚡ Fun fact: **I have more repos than I have socks.**
-
----
-
-### 🛠️ The Kitchen (Tech Stack)
+### 📊 The Data (Live Updates)
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nbharath1306&show_icons=true&theme=transparent&hide_border=true&count_private=true&include_all_commits=true" height="160" alt="Bharath's Stats" />
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nbharath1306&layout=compact&theme=transparent&hide_border=true&langs_count=8" height="160" alt="Top Languages" />
+</div>
 
-| Frontend | Backend | Tools & DevOps |
-| :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" width="200" /> | <img src="https://skillicons.dev/icons?i=nodejs,express,python,java,mongodb" width="200" /> | <img src="https://skillicons.dev/icons?i=git,docker,aws,firebase,vscode" width="200" /> |
-
+<div align="center">
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nbharath1306&theme=transparent&hide_border=true&fire=E25822" alt="Streak" />
 </div>
 
 ---
 
-### 📊 The Stats
-
-Since I have many repositories, here is the data behind the code.
+### 🛠️ Tech Stack (Auto-Detected)
 
 <div align="center">
-  <a href="https://github.com/nbharath1306">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=nbharath1306&show_icons=true&theme=transparent&hide_border=true&count_private=true" alt="Bharath's Stats" height="150" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nbharath1306&layout=compact&theme=transparent&hide_border=true&langs_count=6" alt="Top Languages" height="150" />
-  </a>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nbharath1306&theme=transparent&hide_border=true" alt="Streak" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,css,nodejs,express,mongodb,python,java,git,docker,aws,linux,vscode" />
+  <br/><br/>
+  <i>(Icons above represent a Full Stack kit. Since I can't scan your local VS Code, this is a standard "Builder" stack. If you use something else, just change the names in the URL above!)</i>
 </div>
 
 ---
 
-### 🏆 Featured "Dishes" (Top Projects)
+### 🏆 Pinned Projects (The "Cooked" Dishes)
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">🚀 Project A (The Big One)</h3>
-      <div align="center">
-        <a href="https://github.com/nbharath1306/PROJECT-LINK">
-          <img src="https://via.placeholder.com/300x150.png?text=Project+Screenshot" width="100%" alt="Project A" />
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://github.com/nbharath1306?tab=repositories&q=&type=source&language=&sort=stargazers">
+            <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbharath1306&repo=YOUR-BEST-REPO-NAME-HERE&theme=transparent&hide_border=true" />
         </a>
-      </div>
-      <p align="center">
-        A concise description of your best project. What problem did it solve?
-        <br />
-        <code>Stack: React, Node, AWS</code>
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">⚡ Project B (The Fast One)</h3>
-      <div align="center">
-        <a href="https://github.com/nbharath1306/PROJECT-LINK">
-          <img src="https://via.placeholder.com/300x150.png?text=Project+Screenshot" width="100%" alt="Project B" />
+      </td>
+      <td width="50%" align="center">
+        <a href="https://github.com/nbharath1306?tab=repositories&q=&type=source&language=&sort=stargazers">
+           <img src="https://github-readme-stats.vercel.app/api/pin/?username=nbharath1306&repo=YOUR-SECOND-BEST-REPO-NAME-HERE&theme=transparent&hide_border=true" />
         </a>
-      </div>
-      <p align="center">
-         A cool utility or tool you built that others might use.
-        <br />
-        <code>Stack: Python, Docker</code>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
+      </td>
+    </tr>
+  </table>
+  
+  <p><i>⚠️ <b>Action Item:</b> To make the cards above work, replace <code>YOUR-BEST-REPO-NAME-HERE</code> in the code with the actual name of your repo (e.g., <code>my-weather-app</code>).</i></p>
+</div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=nbharath1306&style=flat-square&color=blue" alt="Profile Views" />
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=nbharath1306&style=flat-square&color=blue&label=Profile+Views" alt="Profile Views" />
 </div>
