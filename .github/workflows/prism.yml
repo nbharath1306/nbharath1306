@@ -1,34 +1,42 @@
-name: Project PRISM
+name: System Singularity Engine
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Re-renders the art every 12 hours
+    - cron: '0 0 * * *' # Updates every midnight
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  render:
+  simulate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Studio
+      - name: Initialize Environment
         uses: actions/checkout@v3
 
-      - name: Install Python Logic
+      - name: Setup Python Core
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Install Renderer
-        run: pip install numpy matplotlib
+      - name: Run Module A (Surveyor)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/surveyor.py
 
-      - name: Render Art
-        run: python .github/scripts/prism.py
+      - name: Run Module B (Cosmos)
+        run: python .github/scripts/cosmos.py
 
-      - name: Exhibit Art
+      - name: Run Module C (Hologram)
         run: |
-          git config --local user.email "art@bot.com"
-          git config --local user.name "Prism Bot"
           mkdir -p assets
-          mv assets/prism_render.png assets/prism_render.png
-          git add assets/prism_render.png
-          git commit -m "💎 New Crystal Formed" || exit 0
+          python .github/scripts/hologram.py
+
+      - name: Update Universe
+        run: |
+          git config --local user.email "ai@singularity.com"
+          git config --local user.name "Singularity Core"
+          git add assets/singularity_map.svg
+          git commit -m "🪐 Celestial Alignment Updated" || exit 0
           git push
