@@ -1,0 +1,19 @@
+<svg width="800" height="60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .scrolling-text {
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+      fill: #67DD10; /* THE GREEN */
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .bg { fill: #0d1117; } /* GitHub Dark Mode */
+  </style>
+  
+  <rect width="100%" height="100%" class="bg" />
+  
+  <text x="800" y="35" class="scrolling-text">
+    INNOVATION LAB — MICRO-STARTUPS — AI AUTOMATION — CHAOS ENGINE — VOLUME NEGATES LUCK —
+    <animate attributeName="x" from="800" to="-600" dur="15s" repeatCount="indefinite" />
+  </text>
+</svg>

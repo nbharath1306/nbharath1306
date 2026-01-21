@@ -1,0 +1,22 @@
+name: Deploy Circle-13 Theme
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+      - run: pip install Pillow
+      - run: python .github/scripts/circle13.py
+      - run: |
+          git config --local user.email "bot@circle13.com"
+          git config --local user.name "C-13 System"
+          git add assets/
+          git commit -m "UPLINK ESTABLISHED" || exit 0
+          git push
