@@ -1,0 +1,50 @@
+name: Handle Interaction
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-command:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, 'ACTION:')
+    
+    steps:
+      - name: Checkout Control Systems
+        uses: actions/checkout@v3
+
+      - name: Parse Command
+        id: command-parser
+        run: |
+          TITLE="${{ github.event.issue.title }}"
+          echo "Processing command: $TITLE"
+          
+          if [[ "$TITLE" == *"LAUNCH_PROBE"* ]]; then
+            echo "command=LAUNCH_PROBE" >> $GITHUB_OUTPUT
+            echo "updating state to ACTIVE..."
+            
+            # Update state.json
+            echo '{"probe_status": "ACTIVE", "energy": 98, "zoom": 1.5}' > state.json
+          fi
+
+      - name: Commit State Change
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "feat(interaction): user triggered probe launch"
+          file_pattern: state.json
+
+      - name: Trigger Renderer
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: update-state
+
+      - name: Close Interaction Ticket
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "🚀 COMMAND ACKNOWLEDGED. PROBE LAUNCHED. DASHBOARD UPDATING..."

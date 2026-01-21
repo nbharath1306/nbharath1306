@@ -1,0 +1,39 @@
+name: Render Singularity
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Every 6 hours to update noise/accretion
+  workflow_dispatch:      # Manual trigger
+  repository_dispatch:    # Triggered by Interaction Workflow
+    types: [update-state]
+
+permissions:
+  contents: write
+
+jobs:
+  render-physics:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Initialize Simulation
+        uses: actions/checkout@v3
+
+      - name: Setup Physics Engine
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Graphic Dependencies
+        run: |
+          pip install numpy Pillow
+
+      - name: Execute Volumetric Renderer
+        run: |
+          python engine/renderer.py
+
+      - name: Commit Dashboard Artifacts
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(singularity): gravitational lensing update [skip ci]"
+          file_pattern: assets/blackhole.png
